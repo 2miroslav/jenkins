@@ -1,0 +1,11 @@
+{
+  "autoload":{
+    "psr-4":{
+      "Jenkins\\Demo\\": "src/",
+      "Jenskins\\Demo\\Tests\\":"tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.0.*"
+  }
+}
