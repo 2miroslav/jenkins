@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac562fdf-14ba-4d20-8973-19bc848c5655" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="travis.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/travis.yml">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            <state relative-caret-position="130">
+              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -89,6 +89,7 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/tests/CalculatorTest.php" />
         <option value="$PROJECT_DIR$/travis.yml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -197,12 +198,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519561510335</updated>
-      <workItem from="1519561515523" duration="4640000" />
+      <workItem from="1519561515523" duration="4888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4640000" />
+    <option name="totallyTimeSpent" value="4888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
@@ -281,10 +282,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travis.yml">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        <state relative-caret-position="130">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
       </provider>
