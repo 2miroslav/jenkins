@@ -12,7 +12,7 @@ class CalculatorTest extends PHPUnit_Framework_TestCase{
 	}
 	public function returnTrue(){
 		$calculator= new Jenkins\Demo\Calculator();
-		$this->assertEquals(true,$calculator->calc());
+		$this->assertEquals(true,$calculator->returnTrue());
 	}
 
 }
