@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac562fdf-14ba-4d20-8973-19bc848c5655" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/returner.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/returnerTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/CalculatorTest.php" afterPath="$PROJECT_DIR$/tests/CalculatorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Calculator.php" afterPath="$PROJECT_DIR$/src/Calculator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/returner.php" afterPath="$PROJECT_DIR$/src/returner.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Calculator.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Calculator.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Calculator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="130">
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -39,14 +38,14 @@
       <file leaf-file-name="returner.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/returner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="104">
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="returnerTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="returnerTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/returnerTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
@@ -105,15 +104,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Calculator.php" />
-        <option value="$PROJECT_DIR$/src/Calculator.php" />
         <option value="$PROJECT_DIR$/tests/phpunit.php" />
         <option value="$PROJECT_DIR$/tests/phpunit.xml" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/travis.yml" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/src/returner.php" />
         <option value="$PROJECT_DIR$/tests/CalculatorTest.php" />
         <option value="$PROJECT_DIR$/tests/returnerTest.php" />
+        <option value="$PROJECT_DIR$/src/returner.php" />
+        <option value="$PROJECT_DIR$/src/Calculator.php" />
       </list>
     </option>
   </component>
@@ -223,7 +222,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519561510335</updated>
       <workItem from="1519561515523" duration="5517000" />
-      <workItem from="1520005373017" duration="703000" />
+      <workItem from="1520005373017" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="oprava 2">
       <created>1519566420707</created>
@@ -232,11 +231,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519566420707</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pridanie testu ktory neprejde">
+      <created>1520006108764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520006108764</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6220000" />
+    <option name="totallyTimeSpent" value="6720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-31" y="26" width="1368" height="721" extended-state="6" />
@@ -270,7 +276,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="oprava 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="oprava 2" />
+    <MESSAGE value="pridanie testu ktory neprejde" />
+    <option name="LAST_COMMIT_MESSAGE" value="pridanie testu ktory neprejde" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -351,18 +358,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/phpunit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/returnerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/returner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -375,18 +390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/returner.php">
+    <entry file="file://$PROJECT_DIR$/src/Calculator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/returnerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="130">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
