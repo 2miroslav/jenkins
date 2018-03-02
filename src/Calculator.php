@@ -4,4 +4,7 @@ class Calculator{
 	public function calc($a,$b){
 		return $a+$b;
 	}
+	public function returnTrue(){
+		return false;
+	}
 }
