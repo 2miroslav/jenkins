@@ -4,4 +4,8 @@ namespace Jenkins\Demo;
  	public function returner(){
 			return true;
     }
+
+    public function hell(){
+ 		return "hello";
+    }
  }
