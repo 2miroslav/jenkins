@@ -8,4 +8,8 @@ namespace Jenkins\Demo;
     public function hell(){
  		return "hello";
     }
+    public function Uppercase($upperCase){
+	    $str =strtoupper($upperCase);
+    	return $str;
+    }
  }

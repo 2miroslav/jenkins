@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac562fdf-14ba-4d20-8973-19bc848c5655" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/returnerTest.php" afterPath="$PROJECT_DIR$/tests/returnerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/returner.php" afterPath="$PROJECT_DIR$/src/returner.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="returner.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="returner.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/returner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="286">
+              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="returnerTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="returnerTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/returnerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+            <state relative-caret-position="364">
+              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -110,8 +110,8 @@
         <option value="$PROJECT_DIR$/src/Calculator.php" />
         <option value="$PROJECT_DIR$/tests/CalculatorTest.php" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/src/returner.php" />
         <option value="$PROJECT_DIR$/tests/returnerTest.php" />
+        <option value="$PROJECT_DIR$/src/returner.php" />
       </list>
     </option>
   </component>
@@ -222,7 +222,7 @@
       <updated>1519561510335</updated>
       <workItem from="1519561515523" duration="5517000" />
       <workItem from="1520005373017" duration="3579000" />
-      <workItem from="1520269341729" duration="1922000" />
+      <workItem from="1520269341729" duration="2443000" />
     </task>
     <task id="LOCAL-00001" summary="oprava 2">
       <created>1519566420707</created>
@@ -266,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520008823193</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add new method">
+      <created>1520275384437</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520275384437</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11018000" />
+    <option name="totallyTimeSpent" value="11539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-31" y="26" width="1368" height="721" extended-state="6" />
@@ -309,7 +316,8 @@
     <MESSAGE value="dalsi update" />
     <MESSAGE value="tests pass" />
     <MESSAGE value="3 test pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 test pass" />
+    <MESSAGE value="add new method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,18 +493,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/returner.php">
+    <entry file="file://$PROJECT_DIR$/tests/returnerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="364">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/returnerTest.php">
+    <entry file="file://$PROJECT_DIR$/src/returner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="71" lean-forward="false" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        <state relative-caret-position="286">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding />
         </state>
       </provider>
