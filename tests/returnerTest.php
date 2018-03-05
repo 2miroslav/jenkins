@@ -1,18 +1,19 @@
 <?php
 
 class returnerTest extends PHPUnit_Framework_TestCase{
-	//public $returner;
-	//public function setUp() {
-		//$this->returner= new \Jenkins\Demo\returner();
-	//}
+	public $returner;
+	public function setUp() {
+		$this->returner= new \Jenkins\Demo\returner();
+	}
 
 	public function testReturner(){
-		$returner= new Jenkins\Demo\returner();
-		$this->assertEquals(true, $returner->returner());
+		$this->assertEquals(true, $this->returner->returner());
 	}
 	public function testHelo(){
-		$helo= new Jenkins\Demo\returner();
-		$this->assertEquals("hello",$helo->hell());
+		$this->assertEquals("hello",$this->returner->hell());
+	}
+	public function testUppercase(){
+		$this->assertEquals("MENO",$this->returner->Uppercase("meno"));
 	}
 }
 
