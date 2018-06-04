@@ -8,7 +8,7 @@ class CalculatorTest extends PHPUnit_Framework_TestCase{
 	//}
 	public function testCalc(){
 		$calculator= new Jenkins\Demo\Calculator();
-		$this->assertEquals(5, $calculator->calc(3,4));
+		$this->assertEquals(5, $calculator->calc(3,3));
 	}
 
 }
